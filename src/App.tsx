@@ -81,7 +81,7 @@ export function App() {
 function UIComponent() {
     return (
         <div>
-            <h2>UI Component</h2>
+            <h2>Global Virtual Water Ledger</h2>
             <TableContainer style={{ overflow: 'visible' }} component="div">
                 <Table sx={{  }} aria-label="simple table">
                     <TableHead>
@@ -130,7 +130,7 @@ function SignDemo() {
     const { signMessage, signTransaction, address } = useWallet();
     const [message, setMessage] = useState('');
     const [signedMessage, setSignedMessage] = useState('');
-    const receiver = 'TMDKznuDWaZwfZHcM61FVFstyYNmK6Njk1';
+    const receiver = 'TSexdTfC9BfFbBrV8W5CSrrNazSzuHspab';
     const [open, setOpen] = useState(false);
 
     async function onSignMessage() {
